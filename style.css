@@ -1,0 +1,27 @@
+body{
+    background: #333;
+    color: #eee;
+    text-align: center;
+    font-size:1.8rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+button{
+
+    font-family:'Courier New', Courier, monospace;
+    font-size:1.5rem;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#app{
+    margin: 10%;
+}
+
+#bpmContainer{
+    font-size: 200%;
+}
+
+#controls {
+    font-size: 80%;
+}

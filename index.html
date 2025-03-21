@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>metronome</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <p id="bpmContainer"><span id="bpmDisplay">60</span> bpm</p>
+        <div>
+            <button id="minus5">-5</button>
+            <button id="plus5">+5</button>
+        </div>
+        
+        <div>
+            <button id="minus1">-1</button>
+            <button id="plus1">+1</button>
+        </div>
+
+        <div>
+            <button id="startStop">Start</button>
+        </div>
+
+        <div>
+
+        <input id="volumeRange" type="range" min="0" max="1" value='1' step='0.01'>
+
+        </div>
+        <audio id="click" src="click.mp3"></audio>
+
+
+            <div id="controls">
+                <p>Spacebar = Start/Pause</p>
+                <p>↓ = -5 | ↑ = +5</p>
+                <p>← = -1 | → = +1 </p>
+            </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
